@@ -1,0 +1,71 @@
+/* Listing контейнер*/
+
+.listing__list {
+  list-style: none;
+  display: flex;
+}
+
+.listing__item {
+  align-items: center;
+  padding-top: 100px;
+  margin-right: 80px;
+}
+
+/* Listing image картинка игры*/
+
+.listing__img {
+  width: 220px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.listing__img img {
+  width: 100%;
+}
+
+/* Listing discription описание контейнер*/
+
+.listing__discript {
+  width: 100%;
+  height: 50px;
+}
+
+.listing__title {
+  margin: 20px 0 7px 20px;
+}
+
+.listing__price {
+  font-size: 120%;
+  margin: 0 0 0 70px;
+}
+
+/* Listing control кнопки*/
+
+.listing__controls {
+  width: 220px;
+  text-align: center;
+}
+
+.listing__buy-btn,
+.listing__add-btn {
+  font-size: 85%;
+  width: 110px;
+  height: 36px;
+  border: 0;
+  cursor: pointer;
+  border: 1px solid
+}
+
+.listing__buy-btn {
+  margin-top: -18px;
+  background: #21cc54;
+  color: white;
+}
+
+.listing__add-btn {
+  margin-top: 18px;
+  background: #EAEAEA;
+  color: #5F5F5F;
+}
